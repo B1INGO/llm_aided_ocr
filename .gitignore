@@ -173,3 +173,18 @@ resource_monitoring_logs.json
 redis_configured.txt
 saved_outputs
 download.lock
+
+# PDF Enhancement System
+output_pdf/*.pdf
+input_pdf/*.pdf
+!input_pdf/.gitkeep
+!output_pdf/.gitkeep
+
+# Temporary image files
+*.png
+*.jpg
+*.jpeg
+temp_images/
+
+# Model cache
+model_cache/

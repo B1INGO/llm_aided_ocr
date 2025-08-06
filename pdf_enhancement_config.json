@@ -1,0 +1,29 @@
+{
+  "processing": {
+    "dpi": 600,
+    "quality": 95,
+    "device": "auto",
+    "batch_size": 1,
+    "max_memory_usage": 0.8
+  },
+  "enhancement": {
+    "enable_super_resolution": true,
+    "enable_denoising": true,
+    "enable_demoireing": true,
+    "enable_sharpening": true,
+    "noise_reduction_strength": 0.1,
+    "sharpening_strength": 1.0,
+    "contrast_enhancement": 1.1
+  },
+  "output": {
+    "preserve_metadata": true,
+    "optimize_size": true,
+    "progressive_jpeg": true,
+    "max_output_size_ratio": 1.5
+  },
+  "logging": {
+    "log_level": "INFO",
+    "save_processing_stats": true,
+    "show_progress_bar": true
+  }
+}
