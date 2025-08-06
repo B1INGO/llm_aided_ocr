@@ -4,6 +4,33 @@
 
 The LLM-Aided OCR Project is an advanced system designed to significantly enhance the quality of Optical Character Recognition (OCR) output. By leveraging cutting-edge natural language processing techniques and large language models (LLMs), this project transforms raw OCR text into highly accurate, well-formatted, and readable documents.
 
+## 🆕 PDF Visual Enhancement System
+
+**NEW**: We've added a comprehensive PDF visual enhancement system specifically designed for improving scanned PDF quality. This system focuses on visual enhancement rather than text extraction.
+
+### PDF Enhancement Features
+- **Visual Quality Enhancement**: Uses deep learning for super-resolution, denoising, and demoiré
+- **Professional Document Restoration**: Achieves "like just printed" visual quality
+- **Batch Processing**: Processes multiple PDFs from `input_pdf/` to `output_pdf/`
+- **GPU Acceleration**: Supports CUDA with automatic CPU fallback
+- **Progress Monitoring**: Real-time progress with timing and memory usage
+
+### Quick Start for PDF Enhancement
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Place PDFs in input_pdf directory
+cp your_document.pdf input_pdf/
+
+# Run enhancement
+python enhance_pdf_cli.py
+
+# Enhanced PDFs will be in output_pdf directory
+```
+
+For detailed PDF enhancement documentation, see [README_PDF_ENHANCER.md](README_PDF_ENHANCER.md).
+
 ## Example Outputs
 
 To see what the LLM-Aided OCR Project can do, check out these example outputs:

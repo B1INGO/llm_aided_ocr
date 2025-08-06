@@ -14,3 +14,10 @@ ruff
 scikit-learn
 tiktoken
 transformers
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+psutil
+tqdm
+scikit-image
+matplotlib
